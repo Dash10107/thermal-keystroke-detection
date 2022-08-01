@@ -5,6 +5,5 @@ In this project work, We have developed a deep learning framework for real-time 
 https://user-images.githubusercontent.com/22468194/182168642-5fc54b26-d32d-469e-9c73-817d16a2e0e0.mp4
 
 ## Real Time User Interface Detetction
-https://user-images.githubusercontent.com/22468194/182176854-8f7b7159-8375-4bfb-96a3-8f5f0dfdadc9.mp4
-
+https://user-images.githubusercontent.com/22468194/182187586-47c361d2-7b01-49fc-856c-dd300098f118.mp4
 
