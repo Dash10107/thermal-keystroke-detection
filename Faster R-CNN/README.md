@@ -37,9 +37,4 @@ Now test the web application by running following commands-
 
 (tf_app) C:\my_repo> python main_app.py
 
-## Demo
-
-
-https://user-images.githubusercontent.com/22468194/182169523-675f91c6-b602-45a3-97ba-a1b0b52f8061.mp4
-
 
