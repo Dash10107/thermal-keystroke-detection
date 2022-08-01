@@ -6,6 +6,7 @@ https://user-images.githubusercontent.com/22468194/182168642-5fc54b26-d32d-469e-
 
 ## Real Time User Interface Detetction from Thermal Camera Feed
 
+https://user-images.githubusercontent.com/22468194/182176299-25620521-e252-453c-9e89-2da2a5493e08.mp4
 
 
 https://user-images.githubusercontent.com/22468194/182175008-664cc4ab-05d3-4b98-938c-c0e2bf0f781e.mp4
