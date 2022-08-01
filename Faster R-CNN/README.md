@@ -1,5 +1,5 @@
 ## How to Run
-Install anaconda. Clone or download  https://github.com/MdShafiqu/Thermal-Image-Detection, Create a folder name my_repo and keep all files from repo inside it.  Implement following commands in anaconda prompt-
+Install anaconda. Clone or download  the repo, create a folder name my_repo and keep all files from Faster R-CNN folder inside my_repo folder.  Implement following commands in anaconda prompt-
 
 C:\> conda create -n tf_app pip python=3.7
 
@@ -36,3 +36,10 @@ Now test the web application by running following commands-
 (tf_app) C:\> cd C:\my_repo
 
 (tf_app) C:\my_repo> python main_app.py
+
+## Demo
+
+
+https://user-images.githubusercontent.com/22468194/182185543-46db9ce3-9f99-4c33-b66f-54a2f8b344e3.mp4
+
+
