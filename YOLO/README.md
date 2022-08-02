@@ -30,6 +30,6 @@ python obfuscate.py --weights C:/Users/shafi/YOLO/runs/train/exp/weights/best.pt
 
 
 
-https://user-images.githubusercontent.com/22468194/182389717-b9d53ee1-72a5-4f26-81a1-0847f5610937.mp4
 
+https://user-images.githubusercontent.com/22468194/182390119-9202d81a-ac3e-40dd-83c0-727d1ea548fb.mp4
 
