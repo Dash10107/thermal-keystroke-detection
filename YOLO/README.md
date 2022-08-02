@@ -1,5 +1,3 @@
-## <div align="center">Quick Start Examples</div>
-
 <details open>
 <summary>Install</summary>
 
