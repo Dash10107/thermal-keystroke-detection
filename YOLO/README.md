@@ -10,6 +10,8 @@ git clone or download
 cd YOLO
 pip install -r requirements.txt  # install
 
+Download dataset https://gla-my.sharepoint.com/:u:/g/personal/mdshafiqul_islam_glasgow_ac_uk/EX5c6qu2sK5BtT7yT57-qJgBrpH8KiaOh-bU12EJpO1Vtw?e=zv8aDT
+
 Dowlond best weight: https://gla-my.sharepoint.com/:u:/g/personal/mdshafiqul_islam_glasgow_ac_uk/EaUI4QI1hvtFjAER4pQ8HXsBG4pzW403xbJ7f4zrmTkluA?e=ss3uYG
 
 python train.py  --epochs 100 --batch-size 16 --data data.yaml --weights '' --cfg yolov5s.yaml --workers 0
