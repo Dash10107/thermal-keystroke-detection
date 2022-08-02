@@ -1,6 +1,6 @@
 # Thermal Imaging Project
 
-In this project work, We have developed a deep learning framework for real-time user interface detection and obfuscation from thermal camera feed. We have adapted two state of the art models, namely Faster R-CNN and YOLO. The corresponding codes are available in the respective folders.
+In this research work, We have developed a deep learning framework for real-time user interface detection and obfuscation from the thermal camera feed. We have adopted two state-of-the-art models, namely Faster R-CNN and YOLO. The corresponding codes are available in the respective folders.
 ## Thermal Attacks
 https://user-images.githubusercontent.com/22468194/182168642-5fc54b26-d32d-469e-9c73-817d16a2e0e0.mp4
 
