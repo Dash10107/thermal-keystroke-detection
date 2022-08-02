@@ -37,6 +37,8 @@ Now test the web application by running following commands-
 
 (tf_app) C:\my_repo> python main_app.py
 
+Web app can be accessed from http://127.0.0.1:5000/
+
 ## Detection and Obfuscation
 
 https://user-images.githubusercontent.com/22468194/182392352-7657e95a-07a4-4de7-b4ba-46e0048b9d81.mp4
