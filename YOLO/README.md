@@ -14,11 +14,11 @@ Dowlond best weight: https://gla-my.sharepoint.com/:u:/g/personal/mdshafiqul_isl
 
 python train.py  --epochs 100 --batch-size 16 --data data.yaml --weights '' --cfg yolov5s.yaml --workers 0
 
-python detect.py --weights C:/Users/shafi/YOLO/runs/train/exp/weights/best.pt --img 640 --conf 0.6 --source C:/Users/shafi/YOLO/test/images/1. #from image
+python detect.py --weights C:/Users/shafi/YOLO/runs/train/exp/weights/best.pt --img 416 --conf 0.6 --source C:/Users/shafi/YOLO/test/images/1. #from image
   
-python obfuscate.py --weights C:/Users/shafi/YOLO/runs/train/exp/weights/best.pt --img 640 --conf 0.5 --source C:/Users/shafi/YOLO/test/video/2.avi # from video
+python obfuscate.py --weights C:/Users/shafi/YOLO/runs/train/exp/weights/best.pt --img 416 --conf 0.5 --source C:/Users/shafi/YOLO/test/video/2.avi # from video
 
-python obfuscate.py --weights C:/Users/shafi/YOLO/runs/train/exp/weights/best.pt --img 640 --conf 0.5 --source 0 #real-time from camera
+python obfuscate.py --weights C:/Users/shafi/YOLO/runs/train/exp/weights/best.pt --img 416 --conf 0.5 --source 0 #real-time from camera
   
 
 
