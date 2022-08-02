@@ -41,5 +41,5 @@ Now test the web application by running following commands-
 
 https://user-images.githubusercontent.com/22468194/182392352-7657e95a-07a4-4de7-b4ba-46e0048b9d81.mp4
 
-
+The Faster R-CNN is a bit slower for real-time implementation although it offers better precision. Therefore, we adapted YOLO which is much faster and will be suitable for real-time implementation.
 
