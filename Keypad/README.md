@@ -40,5 +40,7 @@ Now test the web application by running following commands-
 
 Web app can be accessed from http://127.0.0.1:5000/
 
-The model expect images to be in jpg format. To convert tiff images to jpg run command python tiff2jpg.py
+The model expect images to be in jpg format. To convert tiff images to jpg run command-
+
+(tf_app) C:\Keypad> python tiff2jpg.py
 
