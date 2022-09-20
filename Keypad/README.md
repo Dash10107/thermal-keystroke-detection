@@ -34,8 +34,11 @@ C:> activate tf_app
 
 Now test the web application by running following commands-
 
-(tf_app) C:> cd C:\my_repo
+(tf_app) C:> cd C:\Keypad
 
-(tf_app) C:\my_repo> python main_app.py
+(tf_app) C:\Keypad> python main_app.py
 
 Web app can be accessed from http://127.0.0.1:5000/
+
+The model expect images to be in jpg format. To convert tiff images to jpg run command python tiff2jpg.py
+
