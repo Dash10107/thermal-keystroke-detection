@@ -1,6 +1,6 @@
 import cv2, os, shutil
-base_path = "C:/Users/shafi/Desktop/GSF/Demo/"       
-new_path = "C:/Users/shafi/Desktop/GSF/Demo/"
+base_path = "C:/Users/shafi/Desktop/Demo/"       
+new_path = "C:/Users/shafi/Desktop/Demo/"
 d=1
 for infile in os.listdir(base_path):
     print ("file : " + infile)
