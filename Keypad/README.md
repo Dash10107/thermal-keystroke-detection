@@ -44,3 +44,5 @@ The model expect images to be in jpg format. To convert tiff images to jpg run c
 
 (tf_app) C:\Keypad> python tiff2jpg.py
 
+https://user-images.githubusercontent.com/22468194/182169523-675f91c6-b602-45a3-97ba-a1b0b52f8061.mp4
+
