@@ -1,9 +1,24 @@
 # Thermal Imaging Project
 
-In this research work, We have developed a deep learning framework for real-time user interface detection and obfuscation from the thermal camera feed. We have adopted two state-of-the-art models, namely Faster R-CNN and YOLO. The corresponding codes are available in the respective folders.
-## Thermal Attacks
-https://user-images.githubusercontent.com/22468194/182168642-5fc54b26-d32d-469e-9c73-817d16a2e0e0.mp4
+This project presents a deep learning framework to defend against thermal imaging attacks—a major privacy risk where attackers use residual heat on surfaces (like keyboards or screens) to deduce sensitive information.
 
-## Real Time User Interface Detetction and User Sensitive Information Obfuscation
+## Motivation
+Thermal cameras can reveal recently pressed keys or accessed interfaces by detecting heat signatures left behind. Such side-channel attacks can compromise passwords, PINs, or sensitive usage patterns. Our work demonstrates real-time detection and obfuscation to protect user privacy in these scenarios.
 
-https://user-images.githubusercontent.com/22468194/182169523-675f91c6-b602-45a3-97ba-a1b0b52f8061.mp4
+## Solution Overview
+We leverage state-of-the-art deep learning models to analyze thermal images or video:
+- **Faster R-CNN and YOLO**: Used for visual object detection, key area highlighting, and obfuscation.
+- **Real-Time Demo**: The framework includes live processing for both user interface detection and immediate obfuscation of sensitive regions.
+- **Gemini AI (optional)**: For advanced analysis, the Gemini API can help segment and classify thermal hotspots, even suggesting which keyboard keys were most recently pressed.
+
+## Project Structure
+- **/Faster R-CNN**: Implementation for UI/key detection and obfuscation using the Faster R-CNN model.
+- **/YOLO**: Implementation for UI/key detection using YOLOv5/YOLOv8 models.
+- **/Keypad**: A Flask web demo for uploading thermal images or live video, showing real-time detection, AI-based analysis, and privacy protection visualizations.
+- **/datasets**: Sample datasets and COCO-style annotations used for benchmarking and training.
+
+## Try It Yourself
+1. Clone the repo and see the respective `/Faster R-CNN` and `/YOLO` folders for model-specific instructions.
+2. Launch the `/Keypad` Flask app to try image/video upload and real-time privacy demos.
+3. The app will display your thermal image, visually highlight detected/obfuscated regions, and compress all text for minimal user distraction.
+
