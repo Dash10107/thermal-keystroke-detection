@@ -45,7 +45,7 @@ app.secret_key = 'You Will Never Guess'
 
 # Configure Gemini API
 # You'll need to set your API key as an environment variable: GEMINI_API_KEY
-GEMINI_API_KEY = "AIzaSyB0ZXeKIu1kRtNE-T1N-gxDJ5XNlgKyshk"
+GEMINI_API_KEY = "value"
 GEMINI_MODEL = 'gemini-2.0-flash-exp'
 GEMINI_ENDPOINT = f'https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent'
 # Hotspot percentile (higher = stricter); can override via env HOT_PERCENTILE
