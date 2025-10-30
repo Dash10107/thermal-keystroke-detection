@@ -3,11 +3,31 @@
   <head>
     <link rel="stylesheet" href='/staticFiles/main.css' />
     <style>
+      .image-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 36px;
+        margin: 48px 0 32px 0;
+      }
+      .img-cell {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .img-cell img {
+        max-width: 28vw;
+        max-height: 60vh;
+        border-radius: 8px;
+        border: 2px solid #8CBDB9;
+        background: #eee;
+      }
       .center-img-box {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 40px 0;
+        margin: 24px 0 0 0;
       }
     </style>
   </head>
@@ -19,9 +39,32 @@
       </div>
     </div>
     <div class="body">
-      <div class="center-img-box">
-        <img src="{{ gemini_image }}" alt="Detected Thermal/Key Analysis" style="display: block; max-width: 90vw; max-height: 75vh; margin: 0 auto; border-radius: 8px; border: 2px solid #8CBDB9;">
+      <div class="image-row">
+        <div class="img-cell">
+          <img src="{{ user_image }}" alt="Original Image">
+        </div>
+        <div class="img-cell">
+          <img src="{{ detect_image }}" alt="Detection Overlay">
+        </div>
+        <div class="img-cell">
+          <img src="{{ gemini_image }}" alt="Gemini AI Thermal Analysis">
+        </div>
       </div>
+      {% if gemini_analysis.pressed_keys %}
+        <div class="analysis-box">
+          <h4>Pressed Keys Detected:</h4>
+          <ul>
+            {% for key in gemini_analysis.pressed_keys %}
+            <li><strong>{{ key.key }}:</strong> Confidence {{ "%.2f"|format(key.confidence * 100) }}%
+              {% if key.coordinates %}
+              (Coordinates: {{ key.coordinates.x1 }},{{ key.coordinates.y1 }} to {{ key.coordinates.x2 }},{{ key.coordinates.y2 }})
+              {% endif %}
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
+
       <div class="center-img-box">
         <form action="/image_upload" target="_self">
           <input type="submit" value="Upload Another Image" />
